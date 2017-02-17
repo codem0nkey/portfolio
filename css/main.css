@@ -67,6 +67,8 @@ div {
 	
 	.work-text {
 		font-size: 15px;
+		padding-left: 15px !important;
+		padding-right:20% !important;
 	}
 	
 	.featured-title {
