@@ -9,168 +9,109 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 		<title>Marc Davis Portfolio</title>
 	</head>
-
-	
 	
 	<body>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-
-		<div class="container master">
-		
 		<!------ NavBar --->
-		
-			<nav class="row">
-				<div class="col-xs-12 nav-root">
-					<div class="navbar navbar-inverse navbar-static-top">
-						<div class="container navbar-container">
-								
-							<button class="navbar-toggle" data-toggle="collapse" data-target=".top-navbar">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							
-							<div class="collapse navbar-collapse top-navbar">
-							
-								<!--- NavBar Buttons  -->
-								
-								<ul class="nav navbar-nav navbar-left">
-									<li class="active drop-item"><a href="#">Home</a></li>
-									<li><a href="#about" data-toggle="modal" class="drop-item">About</a></li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle drop-item" data-toggle="dropdown">Contact  <b class="caret"></b></a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Cell: (310) 293-5315</a></li>
-											<li><a href="mailto:marcdavis25@gmail.com">Email</a></li>
-										</ul>
-									</li>
-								</ul>
-							
-							</div>
-							
-						</div>
-						
-					</div>
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container navbar-container">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".top-navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse top-navbar"> 
+					<!--- NavBar Buttons  -->
+					<ul class="nav navbar-nav navbar-left">
+						<li class="active drop-item"><a href="#">Home</a></li>
+						<li><a href="#about" data-toggle="modal" class="drop-item">About</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle drop-item" data-toggle="dropdown">Contact  <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Cell: (310) 293-5315</a></li>
+								<li><a href="mailto:marcdavis25@gmail.com">Email</a></li>
+							</ul>
+						</li>
+					</ul>
 				</div>
-			
-			</nav>
-			
+			</div>
+		</div>
 			<!-- Header -->
-			
-			<div class="container-fluid">
-			
-				<header class="row">
-				
-					<div class="col-sm-6 hidden-xs">
-						<img class="logo" src="images/logo.png" alt="Marc Davis logo image">
-					</div>
-					
-					<div class="col-xs-12 col-sm-6 title-text">
-						<h1>Marc Davis</h1>
-						<h2>Front-End Developer</h2>
-					</div>
-					
-				</header>
-				
-				<div class="row">
-					<div class="span12">
-						<hr>
-					</div>
+		<div class="container-fluid">
+			<header class="row">
+				<div class="col-sm-6 hidden-xs">
+					<img class="logo" src="images/logo.png" alt="Marc Davis logo image">
 				</div>
-			
-				<!-- Begin Body -->
-			
-				<section class="row">
-					<div class="col-xs-12 text-center">
-						<img class="splash-img" src="images/splash.png" alt="HTML 5, CSS 3 and JavaScript image">
-					</div>
-				</section>
 				
-				<section class="featured work">
-				
-					<div class="row">
-					
-						<div class="col-xs-12">
-							<h2 class="featured-title">Featured Work</h2>
-						</div>
-						
-					</div>	
-				
-					<div class="row">
-						
-						<div class="col-xs-4 work">
-							<picture>
-								<source media=" (min-width: 767px) " srcset="images/Luke_large.jpg">
-								<source media=" (max-width: 500px) " srcset="images/Luke_small.jpg">
-								<img class="work-img img-responsive center-block" src="images/Luke_small.jpg" alt= "Luke Skywalker image">
-							</picture>
-							<p class="work-title">Luke Skywalker</p>
-							<p class="work-text">Luke Skywalker is now a Jedi, but he has lots of family drama.</p>
-						</div>
-						
-						<div class="col-xs-4 work">
-							<picture>
-								<source media=" (min-width: 767px) " srcset="images/Han_large.jpg">
-								<source media=" (max-width: 500px) " srcset="images/Han_small.jpg">
-								<img class="work-img img-responsive center-block" src="images/Han_small.jpg" alt="Han Solo image">
-							</picture>
-							<p class="work-title">Han Solo</p>
-							<p class="work-text">Han Solo is pure rebel scum at it's finest.  A rogue and a scoundrel who is a tad "scruffy-looking."</p>
-						</div>
-						
-						<div class="col-xs-4 work">
-							<picture>
-								<source media=" (min-width: 767px) " srcset="images/Leia_large.jpg">
-								<source media=" (max-width: 500px) " srcset="images/Leia_small.jpg">
-								<img class="work-img img-responsive center-block" src="images/Leia_small.jpg" alt="Princess Leia image">
-							</picture>
-							<p class="work-title">Leia Organa</p>
-							<p class="work-text">Leia Organa is the sister of Luke Skywalker.  She is a "princess" with daddy issues.  Scoundrels beware!</p>
-						</div>
-						
-					</div>
-				</section>	
+				<div class="col-xs-12 col-sm-6 title-text">
+					<h1>Marc Davis</h1>
+					<h2>Front-End Developer</h2>
+				</div>
+			</header>
+			<hr>
+			<!-- Begin Body -->
+			<div class="col-xs-12 text-center">
+				<img class="img-responsive splash-img" src="images/splash.png" alt="HTML 5, CSS 3 and JavaScript image">
 			</div>
 			
-			
-			
-			<!-- Begin Footer -->
-			
-			<footer class="navbar navbar-default navbar-bottom footer">
+			<main class="featured work">
+				<h2 class="featured-title">Featured Work</h2>
+				<article class="col-xs-12 col-sm-4">
+					<picture>
+						<source media=" (min-width: 767px) " srcset="images/Luke_large.jpg">
+						<source media=" (max-width: 500px) " srcset="images/Luke_small.jpg">
+						<img class="work-img img-responsive center-block" src="images/Luke_small.jpg" alt="Han Solo image">
+					</picture>
+					<p class="work-title">Luke Skywalker</p>
+					<p class="work-text">Luke Skywalker is now a Jedi, but he has lots of family drama.</p>
+				</article>
 				
-				<div class="container footer-container">
-					<div class="navbar-text">Site built by Marc Davis</div>
-				</div>
+				<article class="col-xs-12 col-sm-4">
+					<picture>
+						<source media=" (min-width: 767px) " srcset="images/Han_large.jpg">
+						<source media=" (max-width: 500px) " srcset="images/Han_small.jpg">
+						<img class="work-img img-responsive center-block" src="images/Han_small.jpg" alt="Han Solo image">
+					</picture>
+					<p class="work-title">Han Solo</p>
+					<p class="work-text">Han Solo is pure rebel scum at it's finest.  A rogue and a scoundrel who is a tad "scruffy-looking."</p>
+				</article>
 				
-			</footer>
-		
-			<!--  About Modal -->
-		
-			<div class="modal fade" id="about" role="dialog">
-			
-				<div class="modal-dialog">
-				
-					<div class="modal-content">
-					
-						<div class="modal-header">
-							<h2>About Me</h2>
-						</div>
-						
-						<div class="modal-body">
-							<h3>Marc Davis is a Front-End Web Developer with an eye for detail and a flair for design. </h3>
-						</div>
-						
-						<div class="modal-footer">
-							<a class="btn btn-default" data-dismiss="modal">Close</a>
-						</div>
-						
+				<article class="col-xs-12 col-sm-4">
+					<picture>
+						<source media=" (min-width: 767px) " srcset="images/Leia_large.jpg">
+						<source media=" (max-width: 500px) " srcset="images/Leia_small.jpg">
+						<img class="work-img img-responsive center-block" src="images/Leia_small.jpg" alt="Princess Leia image">
+					</picture>
+					<p class="work-title">Leia Organa</p>
+					<p class="work-text">Leia Organa is the sister of Luke Skywalker.  She is a "princess" with daddy issues.  Scoundrels beware!</p>
+				</article>
+			</main>	
+		</div>
+		<!-- Begin Footer -->
+		<footer class="navbar navbar-default navbar-bottom footer">
+			<div class="container footer-container">
+				<div class="navbar-text">Site built by Marc Davis</div>
+			</div>
+		</footer>
+		<!--  About Modal -->
+		<div class="modal fade" id="about" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2>About Me</h2>
 					</div>
 					
+					<div class="modal-body">
+						<h3>Marc Davis is a Front-End Web Developer with an eye for detail and a flair for design. </h3>
+					</div>
+					
+					<div class="modal-footer">
+						<a class="btn btn-default" data-dismiss="modal">Close</a>
+					</div>
 				</div>
-				
 			</div>
-			
 		</div>
 	</body>
 </html>
